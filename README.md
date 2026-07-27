@@ -177,24 +177,7 @@ Highlights the spread, median, and potential outliers across all major numerical
 
 ![Box Plot](images/boxplot_numeric_columns.png)
 
----
-
-# 📈 Power BI Dashboard
-
-An interactive Power BI dashboard was developed to complement the Python analysis. It includes KPI cards, interactive filters, and dynamic visualizations for exploring household electricity consumption.
-
-### Dashboard Features
-
-- KPI Cards (Total, Average, Peak Power, Average Voltage)
-- Monthly Consumption Trend
-- Voltage–Current Relationship
-- Hourly Consumption Pattern
-- Weekday Consumption Analysis
-- Monthly Voltage Trend
-- Interactive Filters (Year, Month, Quarter)
-
-![Power BI Dashboard](images/powerbi_dashboard.png)
-
+ 
 ---
 
 # 📈 Power BI Dashboard
