@@ -95,45 +95,105 @@ Business Insights
 
 # 📊 Python Visualizations
 
-## Distribution of Global Active Power
-
-![Histogram](images/global_active_power_distribution.png)
-
-Shows the overall distribution of household electricity consumption.
+This project includes multiple exploratory data analysis (EDA) visualizations created using **Matplotlib** and **Seaborn** to understand electricity consumption patterns.
 
 ---
 
-## Daily Global Active Power Consumption
+## 1. Distribution of Global Active Power
 
-![Daily](images/daily_global_active_power.png)
+Shows the frequency distribution of household electricity consumption. The histogram reveals that most power readings are concentrated at lower values with a long right tail, indicating occasional high-consumption periods.
 
-Illustrates day-to-day electricity consumption trends.
-
----
-
-## Monthly Global Active Power Consumption
-
-![Monthly](images/monthly_global_active_power.png)
-
-Shows long-term monthly consumption patterns.
+![Global Active Power Distribution](images/global_active_power_distribution.png)
 
 ---
 
-## (Add Your Remaining Charts Here)
+## 2. Daily Global Active Power Consumption
 
-Example:
+Displays the total daily electricity consumption from December 2006 to November 2010, helping identify seasonal trends and abnormal spikes.
 
-```text
-Voltage Distribution
+![Daily Global Active Power](images/daily_global_active_power.png)
 
-Hourly Consumption
+---
 
-Weekday Consumption
+## 3. Monthly Global Active Power Consumption
 
-Scatter Plot
-```
+Illustrates monthly electricity usage, making long-term consumption patterns easier to observe.
 
-Add each saved chart from the `images` folder.
+![Monthly Global Active Power](images/monthly_global_active_power.png)
+
+---
+
+## 4. Voltage Distribution
+
+Visualizes how household voltage is distributed across the dataset, showing that voltage remains relatively stable around its average value.
+
+![Voltage Distribution](images/voltage_distribution.png)
+
+---
+
+## 5. Hourly Consumption Pattern
+
+Shows the average household power consumption for each hour of the day, highlighting peak electricity usage hours.
+
+![Hourly Consumption](images/hourly_consumption.png)
+
+---
+
+## 6. Correlation Heatmap
+
+Displays the correlation between all numerical features, helping identify relationships among power, voltage, current, and sub-metering values.
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+---
+
+## 7. Scatter Plot: Active Power vs Voltage
+
+Explores the relationship between Global Active Power and Voltage.
+
+![Power vs Voltage](images/scatter_power_vs_voltage.png)
+
+---
+
+## 8. Scatter Plot: Active Power vs Current
+
+Shows the strong positive relationship between Global Active Power and Global Intensity.
+
+![Power vs Intensity](images/scatter_power_vs_intensity.png)
+
+---
+
+## 9. Sub-metering Comparison
+
+Compares the energy consumed by the three household sub-metering systems.
+
+![Sub-metering Comparison](images/sub_metering_comparison.png)
+
+---
+
+## 10. Box Plot of Numerical Features
+
+Highlights the spread, median, and potential outliers across all major numerical variables.
+
+![Box Plot](images/boxplot_numeric_columns.png)
+
+---
+
+# 📈 Power BI Dashboard
+
+An interactive Power BI dashboard was developed to complement the Python analysis. It includes KPI cards, interactive filters, and dynamic visualizations for exploring household electricity consumption.
+
+### Dashboard Features
+
+- KPI Cards (Total, Average, Peak Power, Average Voltage)
+- Monthly Consumption Trend
+- Voltage–Current Relationship
+- Hourly Consumption Pattern
+- Weekday Consumption Analysis
+- Monthly Voltage Trend
+- Interactive Filters (Year, Month, Quarter)
+
+![Power BI Dashboard](images/powerbi_dashboard.png)
 
 ---
 
